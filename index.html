@@ -11,105 +11,97 @@
 		<!{endif}-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous">
-	<style type="text/css">
-		.cover {
-			object-fit: cover;
-		}
-
-		#small-link {
-			clear: all;
-			font-size:7pt;
-			color:#7d97ad;
-		}
-
-		#showcase {
-			clear: all;
-			font-size:30px;
-			color:#7d97ad;
-		}
-		.light-blue-color {
-			color:#7d97ad;
-
-		}
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 		
 	</style>
 </head>
 <body>
 	<div class="container h-100">
 										<!--- FIRST ROW -->
-		<div class="row align-items-center h-100 order-med-1">
-			<div class="col-sm-2 offset-2">
+		<div class="row align-items-center h-100">
+			<div class="col col-10 col-sm-2 offset-2 logo">
 				<img src="images/udacity-logo-png-transparent.png" width="60"><alt="Udacity Logo">
 			</div>
-			<div class="col-sm-5 offset-3 order-med-2 text-right">
+			<div class="col col-8 col-sm-4 offset-3 text-right float-right">
 				<h1>Henry Haskell</h1>	
-							<h6>Front End Samurai</h6>
+				<h6>Front End Samurai</h6>
 			</div>
 		</div>
 										<!--- SECOND ROW -->
 		<div class="row">
 
-			<div class="col-sm-10 offset-2">
+			<div class="col col-9 offset-2">
 				<svg width="100%" height="2px"><rect x="0" y="0" width="100%" height="3px" fill="#7d97ad"/></svg>
 			</div>	
 		</div>
 										<!--- THIRD ROW -->
 		<div class="row">
-
-			<div class="col-sm-1 offset-1 order-lg-3 text-right ">
-				<div width="100%">
-					<svg width="70" height="70"><rect x="0" y="0" width="70" height="70" fill="#02b3e4" />
-					</svg>
+			<div class="col col-1 text-right ">
+				<div class= "col col-12 col-sm-1 container">
+					<svg width="70" height="70"><rect x="0" y="0" width="70" height="70" fill="#02b3e4" /></svg>
 					<br>
 					#02b344
-					<br>
-					<br>
+					<br><br>
 					<svg width="70" height="70"><rect x="0" y="0" width="70" height="70" fill="#2d3c49" /></svg>
 					<br>
 					#2d3c49
-					<br>
-					<br>
+					<br><br>
 					<svg width="70" height="70"><rect x="0" y="0" width="70" height="70" fill="#7d97ad" /></svg>
 					<br>
 					#7d97ad
 				</div>
 			</div>
-			<div class="col-sm-10 order-lg-4">
-				<img src="images/BugBot.jpg" class="cover" width="100%"><alt="Bug Bot">
+			<div class="col col-1">
 			</div>
+			<div class="col col-12 col-sm-9 .img-fluid">
+				<picture>
+					<source media="(min-width: 1600px)" srcset="images/bugbot-xl.jpg" class="img-fluid">
+					<source media="(min-width: 992px)" srcset="images/bugbot-lg.jpg" class="img-fluid">
+					<source media="(min-width: 768px)" srcset="images/bugbot-md.jpg" class="img-fluid">
+					<source media="(min-width: 544px)" srcset="images/bugbot-sm.jpg" class="img-fluid">
+					<source media="(min-width: 150px)" srcset="images/bugbot-sm.jpg" class="img-fluid">
+					<img src="images/bugbot-md.jpg" alt="Robot Photo" class="img-fluid">
+				</picture>
+ 			</div>
 				
 		</div>
 										<!--- fOURTH ROW -->
-		<div class="row order-med-5">
-			<div class="col-sm-10 offset-2 col grow text-left" id="showcase">
+		<div class="row">
+			<div class="col col-sm-2"></div>
+			<div class="col col-10 grow text-left" id="showcase">
 				<h2>Featured Work</h2>
 			</div>
 		</div>
 										<!--- fIFTH ROW -->
-		<div class="row order-med-6">
-			<div class="col-sm-2">
+		<div class="row">
+			<div class="col col-0 col-md-1 col-xl-2">
 			</div>
-			<div class="col grow text-center">
-				<div text-center image-center>
-					<img src="images/Pixel_Art_Maker.png" height="200p"><alt="Dustin from Stranger Things as pixel art"><br><H3>Pixel Art Maker</H3>
+				<div class="col grow col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3 text-center image-center">
+					<img src="images/Pixel_Art_Maker.png" height="200p"><alt="Dustin from Stranger Things as pixel art">
+					<br>
+					<H3>Pixel Art Maker</H3>
 					<a href="https://github.com/skilltron/Pixel_Art_Maker">
-					<div id="small-link">https://github.com/skilltron/Pixel_Art_Maker"</div></a>
+					<div id="small-link">https://github.com/skilltron/Pixel_Art_Maker
+					</div></a>
 				</div>
-			</div>
 
-			<div class="col grow text-center">
-				<div text-center image-center>
-					<img src="images/Doctor12.png" height="200px"><alt="icon of the 12th Doctor Who"><br><H3>Dr Who Game</H3>
+				<div class="col grow col-12 col-sm-10 col-md-5 col-lg-5 col-xl-3 text-center">
+					<img src="images/Doctor12.png" height="200px"><alt="icon of the 12th Doctor Who">
+					<br>
+					<H3>Dr Who Game</H3>
 					<a href="https://github.com/skilltron/Dr_Who_Video_Game">
-					<div id="small-link">https://github.com/skilltron/Dr_Who_Video_Game"</div></a>
+					<div id="small-link">https://github.com/skilltron/Dr_Who_Video_Game
+					</div></a>
 				</div>
-			</div>
-
-			<div class="col grow text-center">
-					<img src="images/Arduino.jpg" height="200px"><alt="Ardiuno"><br><H3>Arduino Rig</H3>
+				<div class="col col-12 col-sm-10 col-md-9 col-lg-9 col-xl-3 text-center">
+					<img src="images/Arduino.jpg" height="200px"><alt="Ardiuno">
+					<br>
+					<H3>Arduino Rig</H3>
 					<a href="https://github.com/skilltron/Test_Controller">
-					<div id="small-link">https://github.com/skilltron/Test_Controller"</div></a>
-			</div>
+					<div id="small-link">https://github.com/skilltron/Test_Controller
+					</div></a>
+				</div>
+			
 		</div>
 	</div>
 

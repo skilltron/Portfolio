@@ -1,19 +1,42 @@
-.cover {
-object-fit: cover;
+.fill {
+	object-fit: fill;
 		}
 
 #small-link {
 	clear: all;
-	font-size:.5em;
-	color:#7d97ad;
+	font-size: .7em;
+	color:#2d3c49;
 }
 
 #showcase {
 	clear: all;
 	font-size:30px;
 	color:#7d97ad;
+	margin-top: 1em;
 }
 .light-blue-color {
 	color:#7d97ad;
-
 }
+
+.logo
+@media only screen and (max-width: 425px) {
+    body {
+        margin-top:2.2em;
+        margin-bottom:3em;
+ 	}
+ }
+
+@media only screen and (max-width: 575px) {
+    body {
+        margin-top:2.2em;
+        margin-bottom:3em;
+ 	}
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-top:2.2em;
+        margin-bottom:3em;
+ 	}
+}
+	

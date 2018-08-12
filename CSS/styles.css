@@ -1,0 +1,19 @@
+.cover {
+object-fit: cover;
+		}
+
+#small-link {
+	clear: all;
+	font-size:.5em;
+	color:#7d97ad;
+}
+
+#showcase {
+	clear: all;
+	font-size:30px;
+	color:#7d97ad;
+}
+.light-blue-color {
+	color:#7d97ad;
+
+}
